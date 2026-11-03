@@ -10,6 +10,14 @@ Dieses Repository enthält nur die veröffentlichten Programme; der Quellcode wi
 - `CybertronTV.exe` startet die Oberfläche; `CybertronTV-console.exe` ist für Befehle in cmd/PowerShell (`--help`).
 - Voraussetzung: Windows 10 oder 11, 64 Bit.
 
+## Erste Schritte
+1. **Scannen:** Netz eintragen (z. B. `192.168.178.0/24`) oder „Lokale Netze erkennen“ → „Scan starten“. Fernseher erscheinen oben in der Liste. Der TV muss eingeschaltet sein.
+2. **TV auswählen:** Zeile anklicken — rechts erscheinen Infos, Fernbedienung und eine Schritt-für-Schritt-Anleitung für genau diese Marke.
+3. **Freischalten (einmalig):**
+   - *Android / Google / Fire TV:* Entwickleroptionen + Debugging am TV einschalten (Anleitung im Programm), dann „ADB verbinden“.
+   - *Samsung:* am TV Apps » `12345` » Developer Mode EIN » Host-PC-IP eintragen » TV neu starten; dann „sdb automatisch holen“ und „TizenTube installieren“.
+4. **Gratis-Apps:** „Standard-Apps herunterladen“ (SmartTube = YouTube ohne Werbung, Kodi, Stremio) → „APKs installieren…“. Weitere Tipps im Programm unter „Frei schauen (ohne Abo)“ und „Русский / Russisch“.
+
 ## SmartScreen
 Die Programme sind nicht signiert. Windows zeigt beim ersten Start „Der Computer wurde durch Windows geschützt“ → **Weitere Informationen** → **Trotzdem ausführen**.
 
